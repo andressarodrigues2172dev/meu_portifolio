@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.caixa-principal{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/image-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: 113%;
+    background-color:#faf8f9;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.portifolio{
+    color: #1e6a80;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.portifolio span{
+    color:  #f344ac;
+}
+
+li{
+    display: inline-block;
+    color: black;
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+li:hover{
+    color: #f344ac;
+    transition: 0.5s;
+}
+
+.meu-nome{
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    color: #204955;
+}
+
+h1{
+    font-size: 42px;
+    color: #236a7e;
+    font-weight: 500;
+}
+
+h1 span{
+    color: #f344ac;
+
+}
+
+.meu-nome h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+ section {
+    display: flex;
+    align-items: center;
+    margin:  0;
+    padding: 60px 15%;
+    background-color: #ebc7cc;
+
+}
+
+img{
+    height: 400px;
+    border-radius: 40px;
+    margin: 30px 60px ; 
+    border: solid #f344ac 0.1px;
+    margin-right: 60px;
+
+}
+
+section div h2{
+    color: #236a7e;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+section div p {
+    color: #204955;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+section div button{
+    color: white;
+    background-color: #f344ac;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+section div button:hover{
+ background-color: #ebc7cc ;
+ border:solid #236a7e 2px ;
+ transition: 0.5s;
+ color: #204955;
+}
