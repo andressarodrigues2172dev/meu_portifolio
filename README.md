@@ -1,2 +1,2 @@
 # meu_portifolio
-Portofolio em criação S2
+Portofolio em construção
